@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-center my-10">Price calculator</h1>
+    </header>
+    <main class="text-center my-10">
+        <div>
+            <label for="">Price :</label>
+            <input type="text" id="price" class="my-10">
+            <br>
+            <label for="">Discount :</label>
+            <input type="text" id="discount"  class="my-10">
+            <br>
+            <label for=""  >Amount to pay : $<span id="pay-amount">00</span></label>
+            <br>
+            <button class="my-10" id="btnApply">Apply</button>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
